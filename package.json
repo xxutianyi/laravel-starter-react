@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "tsc && vite build",
+        "dev": "vite",
+        "lint": "eslint resources/js --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore --fix",
+        "format": "prettier resources/js --ignore-path .gitignore"
+    },
+    "devDependencies": {
+        "@inertiajs/react": "^2.0.11",
+        "@tailwindcss/vite": "^4.0.0",
+        "@types/node": "^22.15.21",
+        "@types/nprogress": "^0.2.3",
+        "@types/react": "^18.3.22",
+        "@types/react-dom": "^18.3.7",
+        "@vitejs/plugin-react": "^4.5.0",
+        "ahooks": "^3.8.5",
+        "axios": "^1.9.0",
+        "clsx": "^2.1.1",
+        "concurrently": "^9.1.2",
+        "dayjs": "^1.11.13",
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^10.1.5",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "laravel-vite-plugin": "^1.2.0",
+        "nprogress": "^0.2.0",
+        "prettier": "^3.5.3",
+        "prettier-plugin-organize-imports": "^4.1.0",
+        "prettier-plugin-packagejson": "^2.5.14",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tailwindcss": "^4.0.0",
+        "typescript": "^5.8.3",
+        "vite": "^6.2.4"
+    }
+}

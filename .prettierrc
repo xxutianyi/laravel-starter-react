@@ -1,0 +1,27 @@
+{
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tailwindFunctions": [
+        "clsx"
+    ],
+    "overrides": [
+        {
+            "files": ".prettierrc",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "*.blade.php",
+            "options": {
+                "parser": "html"
+            }
+        }
+    ],
+    "plugins": [
+        "prettier-plugin-organize-imports",
+        "prettier-plugin-packagejson",
+        "prettier-plugin-tailwindcss"
+    ]
+}
